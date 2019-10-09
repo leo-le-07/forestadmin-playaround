@@ -1,0 +1,18 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sinsin
+    environment:
+      - APPLICATION_HOST=localhost
+      - APPLICATION_PORT=3000
+      - DATABASE_URL=postgres://lumber:secret@host.docker.internal:5432/meals
+      - DATABASE_SSL=false
+      - DATABASE_ENCRYPT=false
+      - AUTH_SECRET=a097ad69f0be0ce4aa0e0ce30eb55e2d69e2275ed6014931fd3f35ed5cf0fda765f39dd512ad08153a20719293c5950a
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/usr/src/app
