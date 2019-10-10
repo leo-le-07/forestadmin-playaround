@@ -2,8 +2,6 @@ const Liana = require('forest-express-sequelize');
 const { BigQuery } = require('@google-cloud/bigquery');
 const express = require('express');
 const router = express.Router();
-const models = require('../models');
-const P = require('bluebird');
 const JSONAPISerializer = require('jsonapi-serializer').Serializer
 
 router.get('/customer_location', Liana.ensureAuthenticated, async (req, res, next) => {
