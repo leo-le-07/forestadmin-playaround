@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 const JSONAPISerializer = require('jsonapi-serializer').Serializer
 
-router.get('/customer_location', Liana.ensureAuthenticated, async (req, res, next) => {
+router.get('/bigquery_stations', Liana.ensureAuthenticated, async (req, res) => {
   // Create a client
   const bigqueryClient = new BigQuery();
 
@@ -25,7 +25,7 @@ router.get('/customer_location', Liana.ensureAuthenticated, async (req, res, nex
   const [rows] = await bigqueryClient.query({ query: sqlQuery, location: 'US' });
   const [totalPayload] = await bigqueryClient.query({ query: countQuery, location: 'US' });
 
-  const serializer = new JSONAPISerializer('customer_location', {
+  const serializer = new JSONAPISerializer('bigquery_stations', {
     attributes: ['name', 'longitude', 'latitude'],
     id: 'station_id',
   })

@@ -1,6 +1,6 @@
 const Liana = require('forest-express-sequelize');
 
-Liana.collection('customer_location', {
+Liana.collection('bigquery_stations', {
   fields: [
     {
       field: 'id',
