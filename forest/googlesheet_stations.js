@@ -18,5 +18,10 @@ Liana.collection('googlesheet_stations', {
       field: 'classlevel',
       type: 'String',
     },
+  ],
+  actions: [
+    {
+      name: 'Reverse Gender',
+    }
   ]
 })

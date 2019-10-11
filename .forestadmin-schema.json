@@ -695,7 +695,16 @@
       "validations": []
     }],
     "segments": [],
-    "actions": []
+    "actions": [{
+      "name": "Reverse Gender",
+      "type": "bulk",
+      "baseUrl": null,
+      "endpoint": "/forest/actions/reverse-gender",
+      "httpMethod": "POST",
+      "redirect": null,
+      "download": false,
+      "fields": []
+    }]
   }, {
     "name": "menus",
     "nameOld": "menus",
