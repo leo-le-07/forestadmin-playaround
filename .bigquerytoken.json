@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "omega-wind-255408",
+  "private_key_id": "d72642807486b1f905a2f36a9f9febc71b37eab8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCvkFvkRjYNxvg5\nvzRsSL9o/0FC/grYhE/AgtNjIIveso99+rNs1y/dqZMW4ct3RY9+RS+AN23MP3iG\nyac5A2DJzp24LrA+qRqV3nnd/BpmqQCE3rocywtuUbXGcOrYTJ9cQEjkDsJwymC5\nvwuiDirl2EpjKnK7ltpVXGqEFaQEhZgWm6K7rG5gYma28J9lOJdcrnpq6BB9LOi9\nkaBPznIfzHv/zjnh9PPs9LAUKe4m50XCX7ShpYhiWlcTL9EA5g2VPktXArsGV74m\n2goIej/pBvT60PTOf7o+4hsz48aO1+D9FTkDBzH8jycDEf3uUIHfTZml2XZCf6jA\n2IkotiR5AgMBAAECggEAA0uNFS1/lB+4JuAdfbiaBebTXkyScdcxgDSkZYxylTYA\npsKdRzPWi7OqiLspSVGM3JFm9eJBPtxkTxLuJWe+4ELIjiPel6p79U4+tzZYXRvO\nbSMy1vM1QXddcOSx9htudHnzZ3svovpon6V3J5RzyyqvIlalXrtGP7EzZ/7xyP21\n8hZwtOEDrCDfnT9o57hkiNerXp9ALxA1ILFsuHzqcWdyZo14ZgkZTshARaJXZUz/\n/i7QxwJ/tEijGQdWnAm7X2gV4nEO2/oTOmvg6zfVnIxPIzE6vzuwQuHrjmm53TfH\ntoXtqSjJJWFsSaEzg6wqkypt4po7FCVDeNLqw11sAQKBgQDeaFO/+GSkXtsTfQt5\nR+8Xf442eog8Y8zjNi+eYURPEm3X5ooBUNqGWMOUtTu+G7+LG9jDSCHGMWXUtdmd\nZi1aBvfAFFsKmE3OMliGOPaAKBs2N+0U+2w+mGBnnyDoRGqab5KUM5SkyRvnR+7Y\nD4cgSNu76ivHqamrcLY4lofSeQKBgQDKFMNIRSeFATegX1dy3QeuFIxJ1KCi6Bql\naGHz4YY/v4DK9IIDFA3L5KOv+QVYa7l6XYQsMNeeReeEEWK4+UCKRvitWFUbOF4U\ncIYwcru87UHDzCs4e1BxaA2fvX6JTjdC+O8halJn9EgEr7QNySAN0oypX594otEi\n+alraXxiAQKBgF8gYknmtS00wSE5x7GNGe+ECFC24hRqX1UDdSSZ17y2VjMVEQv1\nCDKUPrsZNT9f4PJf67vC22dI85QiX7yZ2mX6Ovd1/Wavs/+wuvpV3OD9xn3PN+FU\nlHzFcd6ASnPt52a8uAYZdcdxmTS4KKlTIumlIA7k3urcX4zLfbUAdYGJAoGBAJ0+\nksZFqX7Bd7t+9NkYTMWUj6VTorugyDs1giL3tjMcnOdQY2ppzGJ/wy9HInWvPWCO\nLC8GwoER/Bi0PpGYwjPXDeI0/eR0dCCLfp9sZ9GW/LmSwX7t1aapRRCrry7AghfH\nBKyHwx/I4dFjt0OS4TJgR7v0AG8qonoIs2A1cOgBAoGACEtfuU4MJDzMdOEEiCYC\ny/gjwwD+u1eFx3ugb2cqfcc9uON3eEQL96I5D/ZnUzkYvbqwomylD0sbqziQ9Q2U\nRWGhJjkYNuh9IZhyBEtxTbZdOwhkU0W0m+6rY3/NT1YC4t8PZZRHjiTMrqfMO6L2\npjRa54RMhKQRMo2znHnM/9U=\n-----END PRIVATE KEY-----\n",
+  "client_email": "forst-admin-query@omega-wind-255408.iam.gserviceaccount.com",
+  "client_id": "115260028374194536185",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/forst-admin-query%40omega-wind-255408.iam.gserviceaccount.com"
+}
