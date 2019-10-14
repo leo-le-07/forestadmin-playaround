@@ -547,7 +547,7 @@
       "enums": null,
       "integration": null,
       "isFilterable": false,
-      "isReadOnly": true,
+      "isReadOnly": false,
       "isRequired": false,
       "isSortable": false,
       "isVirtual": true,
