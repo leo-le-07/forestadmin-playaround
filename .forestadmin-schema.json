@@ -611,6 +611,20 @@
       "inverseOf": null,
       "validations": []
     }, {
+      "field": "note",
+      "type": "String",
+      "defaultValue": null,
+      "enums": null,
+      "integration": null,
+      "isFilterable": true,
+      "isReadOnly": false,
+      "isRequired": false,
+      "isSortable": true,
+      "isVirtual": false,
+      "reference": null,
+      "inverseOf": null,
+      "validations": []
+    }, {
       "field": "phone",
       "type": "String",
       "defaultValue": null,
@@ -640,7 +654,26 @@
       "validations": []
     }],
     "segments": [],
-    "actions": []
+    "actions": [{
+      "name": "Mark as unavailable",
+      "type": "bulk",
+      "baseUrl": null,
+      "endpoint": "/forest/actions/mark-as-unavailable",
+      "httpMethod": "POST",
+      "redirect": null,
+      "download": false,
+      "fields": [{
+        "field": "Reason",
+        "type": "String",
+        "defaultValue": null,
+        "enums": null,
+        "isRequired": false,
+        "reference": null,
+        "description": "The reason why he/she is unavailable",
+        "position": 0,
+        "widget": null
+      }]
+    }]
   }, {
     "name": "googlesheet_stations",
     "nameOld": "googlesheet_stations",
@@ -1352,7 +1385,7 @@
   "meta": {
     "database_type": "postgres",
     "liana": "forest-express-sequelize",
-    "liana_version": "4.0.0",
+    "liana_version": "4.0.2",
     "orm_version": "5.8.12"
   }
 }

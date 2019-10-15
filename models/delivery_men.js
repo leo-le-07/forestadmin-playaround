@@ -1,6 +1,9 @@
 module.exports = (sequelize, DataTypes) => {
   const { Sequelize } = sequelize;
   const Model = sequelize.define('delivery_men', {
+    note: {
+      type: DataTypes.STRING,
+    },
     firstname: {
       type: DataTypes.STRING,
     },
