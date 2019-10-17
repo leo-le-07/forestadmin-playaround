@@ -8,7 +8,6 @@ router.post('/actions/mark-as-unavailable', liana.ensureAuthenticated,
     const ids = req.body.data.attributes.ids
     const attributes = req.body.data.attributes.values
     const reason = attributes['Reason']
-
     return models.delivery_men.update(
       { available: false, note: reason },
       { where: { id: ids } },
